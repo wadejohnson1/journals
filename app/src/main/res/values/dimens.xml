@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    MIT License
+
+    Copyright (c) 2020 Wade Johnson
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+    and associated documentation files (the "Software"), to deal in the Software without
+    restriction, including without limitation the rights to use, copy, modify, merge, publish,
+    distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the
+    Software is furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all copies or
+    substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+    BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+    DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ -->
+
+<resources>
+
+    <!-- *****Base screen size dimensions.***** -->
+    <!-- Dimensions that are specific to particular screen sizes. -->
+
+    <!-- Horizontal breakpoints -->
+    <item name="match_parent" type="dimen">-1</item>
+    <dimen name="content_width">@dimen/match_parent</dimen>
+
+    <!-- Horizontal keylines and spacing -->
+    <dimen name="fixed_increment_x6">336dp</dimen>
+    <dimen name="keyline_content_start">72dp</dimen>
+    <dimen name="keyline_content_start_with_fab">72dp</dimen>
+    <dimen name="keyline_margin">16dp</dimen>
+    <dimen name="keyline_margin_end_with_fab">32dp</dimen>
+    <dimen name="keyline_margin_start_with_fab">16dp</dimen>
+
+    <!-- Navigation drawer dimensions. -->
+    <dimen name="navdrawer_profile_image_size">40dp</dimen>
+
+    <!-- *****Base API dimensions.***** -->
+    <!--  Dimensions that are specific to particular API versions. -->
+
+    <!-- Floating action button dimensions. -->
+    <dimen name="fab_layout_margin">16dp</dimen>
+
+    <!-- *****Application dimensions.***** -->
+    <!-- All dimensions that are NOT specific to a particular screen size or API-level. -->
+
+    <!-- Baseline grid dimensions -->
+    <dimen name="baseline_grid">8dp</dimen>
+
+    <!-- Vertical spacing -->
+    <dimen name="height_status_bar">24dp</dimen>
+    <dimen name="spacing_content_areas">8dp</dimen>
+    <dimen name="spacing_content_areas_with_fab">24dp</dimen>
+
+    <!-- List and grid item spacing -->
+    <dimen name="spacing_grid_item">4dp</dimen>
+
+
+</resources>

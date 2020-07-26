@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    MIT License
+
+    Copyright (c) 2020 Wade Johnson
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+    and associated documentation files (the "Software"), to deal in the Software without
+    restriction, including without limitation the rights to use, copy, modify, merge, publish,
+    distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the
+    Software is furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all copies or
+    substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+    BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+    DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ -->
+
+<resources>
+
+    <!-- Application strings -->
+
+    <string name="app_name">Journals</string>
+
+    <!-- Labels for menu items and buttons -->
+
+    <string name="action_label_about">About</string>
+    <string name="action_label_changeAccount">Change account</string>
+    <string name="action_label_communityGuidelines">Community guidelines</string>
+    <string name="action_label_delete">Delete</string>
+    <string name="action_label_discardChanges">Discard changes</string>
+    <string name="action_label_edit">Edit</string>
+    <string name="action_label_editJournal">Edit journal</string>
+    <string name="action_label_edit_location">Edit location</string>
+    <string name="action_label_geotagAdd">Add geotag</string>
+    <string name="action_label_geotagRemove">Remove geotag</string>
+    <string name="action_label_geotagUpdate">Update geotag</string>
+    <string name="action_label_helpAndFeedback">Help &amp; feedback</string>
+    <string name="action_label_importContact">Import</string>
+    <string name="action_label_nav_nearby">Nearby</string>
+    <string name="action_label_nav_topJournals">Top journals</string>
+    <string name="action_label_nav_yourJournals">Your journals</string>
+    <string name="action_label_newAccount">New Account</string>
+    <string name="action_label_newJournal">New journal</string>
+    <string name="action_label_newJournalContact">Add contact</string>
+    <string name="action_label_newJournalSpot">New spot</string>
+    <string name="action_label_privacyPolicy">Privacy policy</string>
+    <string name="action_label_refresh">Refresh</string>
+    <string name="action_label_save">Save</string>
+    <string name="action_label_search">Search</string>
+    <string name="action_label_settings">Settings</string>
+    <string name="action_label_share">Share</string>
+    <string name="action_label_showMap">Show map</string>
+    <string name="action_label_signIn">Sign in</string>
+    <string name="action_label_signOut">Sign out</string>
+    <string name="action_label_signUp">Sign up</string>
+    <string name="action_label_termsAndConditions">Terms &amp; conditions</string>
+
+    <!-- Dialog text -->
+
+    <string name="dialog_choice_private">Private</string>
+    <string name="dialog_choice_public">Public</string>
+    <string name="dialog_content_recordImage">Take photo</string>
+    <string name="dialog_content_recordVideo">Take video</string>
+    <string name="dialog_content_chooseImage">Photo library</string>
+    <string name="dialog_content_chooseVideo">Video library</string>
+    <string name="dialog_content_removeMedia">Remove media</string>
+    <string name="dialog_message_deleteJournal">Delete journal?</string>
+    <string name="dialog_message_deleteJournals">The selected journal(s) will be deleted.</string>
+    <string name="dialog_message_deleteContact">This contact will be deleted.</string>
+    <string name="dialog_message_deleteContacts">The selected contact(s) will be deleted.</string>
+    <string name="dialog_message_deleteSpot">This spot will be deleted.</string>
+    <string name="dialog_message_deleteSpots">The selected spot(s) will be deleted.</string>
+    <string name="dialog_message_discardChanges">Discard changes?</string>
+    <string name="dialog_message_error_cancelledOperation">The operation was cancelled.</string>
+    <string name="dialog_message_error_externalStorage">Could not access external storage directory.</string>
+    <string name="dialog_message_error_genericError">An error occurred.</string>
+    <string name="dialog_message_error_insertJournal">Could not create a new journal.</string>
+    <string name="dialog_message_error_insertLocalContact">Could not create a new contact.</string>
+    <string name="dialog_message_error_insertSpot">Could not create a new spot.</string>
+    <string name="dialog_message_error_locationUnknown">Could not determine current location.</string>
+    <string name="dialog_message_error_networkNotAvailable">You are not connected to the internet.</string>
+    <string name="dialog_message_error_openCamera">Could not start the camera.</string>
+    <string name="dialog_message_error_openImage">Could not open the image.</string>
+    <string name="dialog_message_error_unsupportedOperation">Unsupported operation.</string>
+    <string name="dialog_message_error_serverNotResponding">Could not connect to the server.</string>
+    <string name="dialog_message_error_video_invalid_progressive_playback">This video is not valid for streaming to this device.</string>
+    <string name="dialog_message_error_video_unknown">Can\'t play this video.</string>
+    <string name="dialog_message_geotagAdd">Add geotag with current location to this entry?</string>
+    <string name="dialog_message_geotagRemove">The geotag will be removed.</string>
+    <string name="dialog_message_geotagUpdate">The geotag will be updated with the current location.</string>
+    <string name="dialog_message_signOut">This account will be logged out.</string>
+    <string name="dialog_message_newJournal">Create a new journal</string>
+    <string name="dialog_message_editJournal">Edit journal</string>
+    <string name="dialog_message_shareJournal">This journal will be shared.</string>
+    <string name="dialog_message_shareJournals">The selected journal(s) will be shared.</string>
+    <string name="dialog_message_updateImage">Select an option</string>
+    <string name="dialog_positiveButton_create">Create</string>
+    <string name="dialog_positiveButton_delete">Delete</string>
+    <string name="dialog_positiveButton_discard">Discard</string>
+    <string name="dialog_positiveButton_ok">OK</string>
+    <string name="dialog_positiveButton_signOut">Sign Out</string>
+    <string name="dialog_positiveButton_share">Share</string>
+    <string name="dialog_positiveButton_update">Update</string>
+    <string name="dialog_negativeButton">Cancel</string>
+
+    <!-- Tab labels -->
+
+    <string name="label_tab_description">Info</string>
+    <string name="label_tab_activities">Activities</string>
+    <string name="label_tab_contacts">Contacts</string>
+
+    <!-- Toolbar title labels -->
+
+    <string name="label_cab_itemsSelected">%d selected</string>
+    <string name="label_chooser_selectImage">Select image</string>
+    <string name="label_chooser_selectVideo">Select video</string>
+    <string name="label_toolbar_entryEditor">Entry Editor</string>
+    <string name="label_toolbar_help">Help</string>
+    <string name="label_toolbar_journalList">Journals</string>
+    <string name="label_toolbar_newAccount">New Account</string>
+    <string name="label_toolbar_noLabel"></string>
+    <string name="label_toolbar_search">Search Results</string>
+    <string name="label_toolbar_settings">Settings</string>
+    <string name="label_toolbar_spotEditor">Spot Editor</string>
+    <string name="label_toolbar_spotLocation">Spot Location</string>
+    <string name="label_toolbar_signIn">Sign in</string>
+    <string name="label_toolbar_signUp">Sign up</string>
+
+    <!-- Account authorization strings -->
+
+    <string name="label_account_authTokenType">My Example Account</string>
+
+    <!-- Account creation and sign in strings -->
+
+    <string name="notice_copyright">Copyright &#169; 2020 www.example.com. All rights reserved.</string>
+    <string name="notice_welcome">Capture &amp; share detailed travel memories, tips &amp;
+        recommendations.\nMemories preserve the past.\nTips &amp; recommendations help
+        friends have a better future trip.</string>
+    <string name="label_gender">Gender</string>
+    <string name="label_gender_female">Female</string>
+    <string name="label_gender_male">Male</string>
+    <string name="label_gender_other">Other</string>
+    <string name="message_account_inactive">Your account is currently inactive. Check your email for directions on activating your account.</string>
+
+    <!-- Hints/error messages for user-editable text fields -->
+
+    <string name="userInput_error_emailInvalid">This email address is invalid</string>
+    <string name="userInput_error_passwordIncorrect">This password is incorrect</string>
+    <string name="userInput_error_passwordMismatch">The passwords do not match</string>
+    <string name="userInput_error_passwordTooShort">This password is too short</string>
+    <string name="userInput_error_requiredField">This field is required</string>
+    <string name="userInput_hint_addCaption">Add Caption</string>
+    <string name="userInput_hint_address">Address</string>
+    <string name="userInput_hint_description">Description</string>
+    <string name="userInput_hint_description_required">Description *</string>
+    <string name="userInput_hint_email">Email</string>
+    <string name="userInput_hint_email_required">Email *</string>
+    <string name="userInput_hint_gender">Gender</string>
+    <string name="userInput_hint_name">Name</string>
+    <string name="userInput_hint_name_required">Name *</string>
+    <string name="userInput_hint_password">Password</string>
+    <string name="userInput_hint_password_required">Password *</string>
+    <string name="userInput_hint_phone">Phone</string>
+    <string name="userInput_hint_passwordConfirm">Confirm Password</string>
+    <string name="userInput_hint_passwordConfirm_required">Confirm Password *</string>
+    <string name="userInput_hint_requiredField">* indicates required field</string>
+    <string name="userInput_hint_searchApp">Search</string>
+    <string name="userInput_hint_title">Title</string>
+    <string name="userInput_hint_userAddress">City, State, Country</string>
+    <string name="userInput_hint_userName">User Name</string>
+    <string name="userInput_hint_userName_required">User Name *</string>
+
+    <!-- Content descriptions for accessibility services -->
+
+    <string name="contentDescription_cancel">Cancel</string>
+    <string name="contentDescription_drawer_open">Open drawer</string>
+    <string name="contentDescription_drawer_close">Close drawer</string>
+    <string name="contentDescription_accountMenuToggle">Toggle account menu</string>
+    <string name="contentDescription_play">Play</string>
+    <string name="contentDescription_pause">Pause</string>
+    <string name="contentDescription_rewind">Rewind</string>
+    <string name="contentDescription_fastForward">Fast Forward</string>
+    <string name="contentDescription_previous">Previous</string>
+    <string name="contentDescription_next">Next</string>
+
+    <!-- Default text for missing information -->
+
+    <string name="defaultText_description">No description</string>
+    <string name="defaultText_email">No email</string>
+    <string name="defaultText_location">No location set</string>
+    <string name="defaultText_name">No name</string>
+    <string name="defaultText_phone">No phone</string>
+    <string name="defaultText_title">Untitled</string>
+
+    <!-- List view strings -->
+
+    <string name="list_empty">There are no items to display</string>
+    <string name="list_progress_loading">Loading</string>
+
+    <!-- Help and information strings -->
+
+    <string name="policy_communityGuidelines"><![CDATA[<h2 class="c8 c14"><span class="c12">Community Guidelines</span></h2>]]></string>
+    <string name="policy_privacyPolicy"><![CDATA[<p class="c4"><span class="c1">Privacy Policy</span></p>]]></string>
+    <string name="policy_termsAndConditions"><![CDATA[<p class="c7"><span class="c0">Terms &amp; Conditions</span></p>]]></string>
+
+</resources>

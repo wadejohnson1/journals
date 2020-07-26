@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    MIT License
+
+    Copyright (c) 2020 Wade Johnson
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+    and associated documentation files (the "Software"), to deal in the Software without
+    restriction, including without limitation the rights to use, copy, modify, merge, publish,
+    distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the
+    Software is furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all copies or
+    substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+    BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+    DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ -->
+
+<resources>
+
+    <!-- Account authorization strings -->
+
+    <string name="authenticator_accountType">com.example</string>
+    <string name="authenticator_apiKey">00000000000000000000000000000000</string>
+    <string name="authenticator_authTokenType">AuthToken</string>
+    <string name="authenticator_loginType">1</string>
+    <string name="facebook_app_id">000000000000000</string>
+
+    <!-- Content provider strings -->
+
+    <string name="provider_authority">com.example.journals.provider</string>
+    <string name="provider_filePath_images">images/</string>
+
+    <!-- Preferences/settings strings -->
+
+    <string name="pref_activeAccount">pref_activeAccount</string>
+    <string name="pref_isActiveAccountDeleted">pref_isActiveAccountDeleted</string>
+    <string name="pref_navigationMode">pref_navigationMode</string>
+    <string name="setting_chooseAccount">setting_chooseAccount</string>
+    <string name="setting_logout">setting_logout</string>
+
+    <!-- Network URL strings -->
+
+    <string name="network_path_createJournal">/journal/create</string>
+    <string name="network_path_createJournalActivity">/journal/createactivity</string>
+    <string name="network_path_createJournalPoc">/journal/createpoc</string>
+    <string name="network_path_deleteJournal">/journal/delete</string>
+    <string name="network_path_getJournalDetails">/journal/detail</string>
+    <string name="network_path_getJournals">/journal/get</string>
+    <string name="network_path_myJournals">/journal/myjournal</string>
+    <string name="network_path_searchJournals">/journal/search</string>
+    <string name="network_path_logIn">/user/login</string>
+    <string name="network_path_searchUsers">/user/search</string>
+    <string name="network_path_signUp">/user/signup</string>
+    <string name="network_url_server">http://www.example.com/api</string>
+
+    <!-- Network POST header strings -->
+
+    <string name="network_header_apiKey">Apikey</string>
+    <string name="network_header_authToken">Authtoken</string>
+    <string name="network_header_deviceId">Deviceid</string>
+    <string name="network_header_deviceType">Devicetype</string>
+
+    <!-- Network POST body strings -->
+
+    <string name="network_param_aliasName">alias_name</string>
+    <string name="network_param_email">email</string>
+    <string name="network_param_facebookId">facebookId</string>
+    <string name="network_param_gender">gender</string>
+    <string name="network_param_imageData">image_data</string>
+    <string name="network_param_journal_address">journal_address</string>
+    <string name="network_param_journal_description">journal_description</string>
+    <string name="network_param_journal_id">journal_id</string>
+    <string name="network_param_journal_loc_latitude">journal_loc_latitude</string>
+    <string name="network_param_journal_loc_longitude">journal_loc_longitude</string>
+    <string name="network_param_journal_title">journal_title</string>
+    <string name="network_param_loginType">login_type</string>
+    <string name="network_param_makePublic">make_public</string>
+    <string name="network_param_password">password</string>
+    <string name="network_param_poc_description">poc_description</string>
+    <string name="network_param_poc_email">poc_email</string>
+    <string name="network_param_poc_name">poc_name</string>
+    <string name="network_param_poc_phoneNumber">poc_phone_number</string>
+    <string name="network_param_pushRegistrationId">push_registration_id</string>
+    <string name="network_param_spot_description">spot_description</string>
+    <string name="network_param_spot_file_data">spot_file_data</string>
+    <string name="network_param_spot_loc_latitude">spot_loc_latitude</string>
+    <string name="network_param_spot_loc_longitude">spot_loc_longitude</string>
+    <string name="network_param_spot_title">spot_title</string>
+    <string name="network_param_spot_type">spot_type</string>
+    <string name="network_param_user_city">user_city</string>
+    <string name="network_param_user_country">user_country</string>
+    <string name="network_param_user_state">user_state</string>
+
+</resources>
