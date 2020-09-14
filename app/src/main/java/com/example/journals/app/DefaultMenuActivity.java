@@ -24,9 +24,7 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.journals.HelpActivity;
 import com.example.journals.R;
-import com.example.journals.SettingsActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 

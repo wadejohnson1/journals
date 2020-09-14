@@ -40,9 +40,8 @@ import android.widget.TextView;
 
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.NetworkImageView;
-import com.example.journals.JournalDialogFragment;
-import com.example.journals.JournalDialogFragment.DialogListener;
-import com.example.journals.MediaActivity;
+import com.example.journals.journal.JournalDialogFragment.DialogListener;
+import com.example.journals.widget.MediaActivity;
 import com.example.journals.R;
 import com.example.journals.journal.JournalDetailFragment.OnPageStatusChangedListener;
 import com.example.journals.network.NetworkUtils;

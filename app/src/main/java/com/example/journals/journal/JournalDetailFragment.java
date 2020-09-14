@@ -38,8 +38,7 @@ import android.view.ViewGroup;
 
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.example.journals.JournalDialogFragment;
-import com.example.journals.JournalDialogFragment.DialogListener;
+import com.example.journals.journal.JournalDialogFragment.DialogListener;
 import com.example.journals.R;
 import com.example.journals.account.AccountUtils;
 import com.example.journals.account.AccountUtils.AuthFailureErrorListener;

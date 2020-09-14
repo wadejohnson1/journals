@@ -41,9 +41,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.toolbox.NetworkImageView;
-import com.example.journals.HelpActivity;
-import com.example.journals.JournalDialogFragment;
-import com.example.journals.JournalDialogFragment.DialogListener;
+import com.example.journals.app.HelpActivity;
+import com.example.journals.journal.JournalDialogFragment.DialogListener;
 import com.example.journals.R;
 import com.example.journals.account.AccountAuthenticator;
 import com.example.journals.account.AccountUtils;

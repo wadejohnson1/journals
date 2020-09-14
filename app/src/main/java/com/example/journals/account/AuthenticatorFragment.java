@@ -41,7 +41,7 @@ import android.widget.Toast;
 
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.example.journals.JournalDialogFragment;
+import com.example.journals.journal.JournalDialogFragment;
 import com.example.journals.R;
 import com.example.journals.journal.Constants;
 import com.example.journals.network.GsonRequest;

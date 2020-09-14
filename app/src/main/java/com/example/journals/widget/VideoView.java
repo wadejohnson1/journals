@@ -35,7 +35,6 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.widget.MediaController.MediaPlayerControl;
 
-import com.example.journals.MediaActivity;
 import com.example.journals.R;
 
 import java.io.IOException;

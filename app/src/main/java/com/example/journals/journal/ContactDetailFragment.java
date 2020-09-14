@@ -31,8 +31,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.journals.JournalDialogFragment;
-import com.example.journals.JournalDialogFragment.DialogListener;
+import com.example.journals.journal.JournalDialogFragment.DialogListener;
 import com.example.journals.R;
 import com.example.journals.network.NetworkUtils.Contact;
 import com.example.journals.provider.JournalContract;
