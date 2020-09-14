@@ -34,8 +34,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.journals.JournalDialogFragment;
-import com.example.journals.JournalDialogFragment.DialogListener;
+import com.example.journals.journal.JournalDialogFragment.DialogListener;
 import com.example.journals.R;
 import com.example.journals.image.ImageLoaderOld;
 import com.example.journals.network.NetworkUtils.Activity;

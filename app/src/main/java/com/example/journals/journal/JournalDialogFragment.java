@@ -18,7 +18,7 @@
  * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package com.example.journals;
+package com.example.journals.journal;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -30,6 +30,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 
+import com.example.journals.R;
 import com.google.android.material.textfield.TextInputLayout;
 
 import androidx.annotation.ArrayRes;

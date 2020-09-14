@@ -18,7 +18,7 @@
  * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package com.example.journals;
+package com.example.journals.widget;
 
 import android.app.ActivityOptions;
 import android.app.SearchManager;
@@ -28,12 +28,12 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.example.journals.R;
 import com.example.journals.account.AccountUtils;
 import com.example.journals.journal.Constants;
 import com.example.journals.journal.JournalDetailActivity;
 import com.example.journals.journal.JournalListFragment;
 import com.example.journals.network.NetworkUtils;
-import com.example.journals.widget.AccountsUpdateListenerActivity;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
